@@ -15,8 +15,8 @@
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
-| Centralized LSTM | ~96.72% | ~97.86% | ~96.72% | ~97.11% |
-| **Federated LSTM (FedProx)** | **97.55%** | **98.37%** | **97.55%** | **97.81%** |
+| Centralized LSTM | 96.46% | 98.34% | 96.46% | 97.27% |
+| **Federated LSTM (FedProx)** | **97.60%** | **98.24%** | **97.60%** | **97.79%** |
 
 > ✅ **Federated LSTM outperforms Centralized on all 4 metrics** while guaranteeing **zero raw data exposure** across distributed client nodes.
 
@@ -49,8 +49,8 @@ Each client trains a local **LSTM** model and shares only **model weights** with
 │                             │  20 Communication Rounds       │
 │                ┌────────────▼────────────┐                   │
 │                │   Global LSTM Model     │                   │
-│                │   Acc: 97.55%           │                   │
-│                │   Prec: 98.37%          │                   │
+│                │   Acc: 97.60%           │                   │
+│                │   Prec: 98.24%          │                   │
 │                └─────────────────────────┘                   │
 └──────────────────────────────────────────────────────────────┘
 ```
@@ -62,11 +62,10 @@ Each client trains a local **LSTM** model and shares only **model weights** with
 ```
 federated-lstm-ids/
 │
-├── federated_lstm_ids.ipynb        ← Main Colab notebook (run this!)
+├── Federated_LSTM_IDS_NSL_KDD.ipynb← Main Colab notebook (run this!)
 ├── NSL_KDD_Combined_Shuffled.csv   ← Dataset (upload when prompted)
 ├── README.md                       ← This file
 ├── requirements.txt                ← Python dependencies
-├── linkedin_post.md                ← Ready LinkedIn post
 ├── LICENSE
 │
 └── outputs/                        ← Auto-generated during runtime
@@ -82,12 +81,12 @@ federated-lstm-ids/
 
 ## 🚀 Quick Start — Google Colab
 
-1. Open **Google Colab** → Upload `federated_lstm_ids.ipynb`
+1. Open **Google Colab** → Upload `Federated_LSTM_IDS_NSL_KDD.ipynb`
 2. Set Runtime → **T4 GPU**
 3. Run all cells — upload `NSL_KDD_Combined_Shuffled.csv` when prompted
 4. All plots + results generate automatically
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/federated-lstm-ids/blob/main/federated_lstm_ids.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/likitha-achakala/Privacy-Preserving-Intrusion-Detection-Using-Federated-Learning/blob/main/Federated_LSTM_IDS_NSL_KDD.ipynb.ipynb)
 
 ---
 
