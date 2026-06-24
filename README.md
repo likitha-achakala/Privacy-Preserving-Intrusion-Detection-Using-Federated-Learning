@@ -86,7 +86,7 @@ federated-lstm-ids/
 3. Run all cells — upload `NSL_KDD_Combined_Shuffled.csv` when prompted
 4. All plots + results generate automatically
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/likitha-achakala/Privacy-Preserving-Intrusion-Detection-Using-Federated-Learning/blob/main/Federated_LSTM_IDS_NSL_KDD.ipynb.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/likitha-achakala/Privacy-Preserving-Intrusion-Detection-Using-Federated-Learning/blob/main/Federated_LSTM_IDS_NSL_KDD.ipynb)
 
 ---
 
